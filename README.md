@@ -82,7 +82,7 @@ https://shorturl.at/jkgNi
 ### Transformador
 ```
 Vprimário V1 = 127V (RMS)            | V1 Pico = 127 * √2 ~ 180V
-Vsecundário V2 = 127/7 ~ 18,1 (RMS) | V2 Pico = 18,1 * √2 ~ 25,6V
+Vsecundário V2 = 127/7 ~ 18,1 (RMS)  | V2 Pico = 18,1 * √2 ~ 25,6V
                         |_ Razão de espiras (1 : 7)
 ````
 
@@ -96,6 +96,12 @@ Itotal = Icarga + Ipot + Izenner + Iled = 101 + 1,9 + 4 + 11 ~ 118mA
 ````
 
 ### Capacitor
+````
+Vcapacitor = V2 Pico - (2 * 0,7) = 25,6 - 1,4 = 24,2V
+Ripple desejado: < 10% => 24,2 * 0,1 = 2,42V
+Frequênica: 120Hz (60Hz  * 2)
+Capacitãncia (C) = Itotal / f * ripple = 0,118 / 120 * 2,42 ~ 406µ
+````
 --
 ## Participantes:
 ---
