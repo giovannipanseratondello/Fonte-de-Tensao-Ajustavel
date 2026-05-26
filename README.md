@@ -48,7 +48,16 @@ O transistor é responsável pela amplificação do sinal elétrico de entrada, 
 
 O potenciômetro viabiliza o ajuste e o controle analógico da tensão de saída do circuito, permitindo a variação contínua da faixa operacional entre os limites de 3V e 12V.
 
+---
+## Circuitos;
 
+### Falstad
+
+
+### Tinckercad
+
+
+### Eagle
 
 ## Participantes:
 ---
