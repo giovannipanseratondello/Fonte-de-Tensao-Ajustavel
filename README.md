@@ -57,6 +57,7 @@ O potenciômetro viabiliza o ajuste e o controle analógico da tensão de saída
 ## Circuitos:
 
 ### Falstad
+https://shorturl.at/jkgNi
 
 
 ### Tinckercad
