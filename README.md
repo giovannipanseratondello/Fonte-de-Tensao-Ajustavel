@@ -81,21 +81,21 @@ https://shorturl.at/jkgNi
 
 ### Transformador
 ```
-$V_{primário} ($V_{1}) = 127V (RMS)            | $V_{1} Pico = 127 * √2 ~ 180V
-$V_{secundário} ($V_{2}) =  127/7 ~ 18,1 (RMS) | $V_{2} Pico = 18,1 * √2 ~ 25,6V
+Vprimário V1 = 127V (RMS)            | V1 Pico = 127 * √2 ~ 180V
+Vsecundário V2 = 127/7 ~ 18,1 (RMS) | V2 Pico = 18,1 * √2 ~ 25,6V
                         |_ Razão de espiras (1 : 7)
 ````
 
 ### Correntes
 ````
-$$
-i_{carga} (\text{Resistor }120\Omega) =
-\frac{V_{max}}{R_{carga}} =
-\frac{12,2}{120}
-\approx 101\,\text{mA}
-$$
-$i_{potenciômetro} = \frac{25,44}{10,000 + 3,700 + 1,200} \approx 1,7 mA$
+Icarga (Resistor 120Ω) = Vmax / Rcarga = 12,2/120 ~ 101mA
+Ipotenciômetro |Vponte + Vresisitor| / Rpotenciômetro + R(em baixo pot) = 9 + 4 / 5000 + 2.200 = 13/7200 ~ 1,9mA
+Izenner = |Vzenner + Vresisitor| / R(em cima zenner) = |(-13) + (9)| / 1000 = 4mA
+Iled = |Vled + Vresisitor| / R (em baixo led) = 2 + 20 / 2000 = 22/2000 == 11mA
+Itotal = Icarga + Ipot + Izenner + Iled = 101 + 1,9 + 4 + 11 ~ 118mA
 ````
+
+### Capacitor
 --
 ## Participantes:
 ---
