@@ -1,4 +1,9 @@
 # Fonte de Tensão Ajustável
+
+## Descrição
+
+Fonte de tensão ajustável projetada para a disciplina SSC0180 – Eletrônica para Computação no ICMC-USP, do docente Eduardo do Valle Simões. Nele, busca-se projetar uma fonte de tensão ajustável entre 3v e 12v, com uma corrente de 100mA(máx.). Segue-se a tabela dos materiais utilizados e seus respectivos custos, a simulação realizada no Falstad e as esquemáticas do projeto no Tinkercad e no Eagle.
+
 ## Componentes:
 ---
 | Quantidades   | Componentes   | Preço |
