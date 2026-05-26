@@ -81,14 +81,14 @@ https://shorturl.at/jkgNi
 
 ### Transformador
 ```
-Vprimário (V1) = 127V (RMS)            | V1 Pico = 127 * √2 ~ 180V
-Vsecundário (V2) =  127/7 ~ 18,1 (RMS) | V2 Pico = 18,1 * √2 ~ 25,6V
+$V_{primário} ($V_{1}) = 127V (RMS)            | $V_{1} Pico = 127 * √2 ~ 180V
+$V_{secundário} ($V_{2}) =  127/7 ~ 18,1 (RMS) | $V_{2} Pico = 18,1 * √2 ~ 25,6V
                         |_ Razão de espiras (1 : 7)
 ````
 
 ### Correntes
 ````
-Icarga (Resistor 120Ω) = Vmax / Rcarga = 12,2/120 ~ 101mA
+$i_{carga} (Resistor 120Ω) = \frac{$V_{max}}{$R_{carga}} = 12,2/120 ~ 101mA
 ````
 --
 ## Participantes:
